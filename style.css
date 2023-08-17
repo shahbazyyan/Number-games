@@ -1,0 +1,95 @@
+body {
+    background-color: cadetblue
+}
+
+.main {
+    display: flex;
+}
+
+.start {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   width: 100px;
+   height: 35px;
+   align-items:center;
+   padding: 5px;
+   font-size: 1.5rem;
+   border-radius: 7px;
+   border: none;
+   cursor: pointer;
+}
+
+.start:hover {
+    background: grey;
+}
+
+.mainPlayers {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.playerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    border: 3px solid darkorange;
+}
+.playerTwo {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    border: 3px solid darkorange;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 150px;
+    font-size: 1rem;
+    text-align: center;
+}
+.money {
+
+    height: 70px;
+    width: 130px;
+    background: green;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.bet {
+   
+    height: 70px;
+    width: 130px;
+    background: green;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.bet:hover {
+    background-color:  rgb(33, 129, 33);
+}
+
+.money:hover {
+    background-color:  rgb(33, 129, 33);
+}
